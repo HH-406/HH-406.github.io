@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="preconnect" href="https://cdn.sanity.io"><title>Hot Towels | Healthy Habits</title><meta name="description" content="Complimentary — warm towels worked into your session."><meta property="og:title" content="Hot Towels | Healthy Habits"><meta property="og:type" content="website"><meta property="og:url" content="https://healthyhabits406.com/services/hot-towels/"><meta property="og:description" content="Complimentary — warm towels worked into your session."><meta property="og:image" content="https://healthyhabits406.com/images/jae-hero.jpg"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://healthyhabits406.com/services/hot-towels/"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://cdn.sanity.io data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src 'self' https://hh-calendar.habits406.workers.dev; form-action 'self' https://hh-calendar.habits406.workers.dev; base-uri 'self'; object-src 'none'; frame-src 'none'"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="theme-color" content="#faf8f4"><script>
+      // Theme boot: explicit choice wins; otherwise follow the device. One on-device key, nothing tracked.
+      (function () {
+        try {
+          var t = localStorage.getItem('hh-theme');
+          if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch (e) {}
+      })();
+    </script><script type="application/ld+json">{"@context":"https://schema.org","@type":"HealthAndBeautyBusiness","name":"Healthy Habits","url":"https://healthyhabits406.com/","description":"Every session is fashioned to the individual."}</script><link rel="stylesheet" href="/_astro/_slug_.csqPcc9G.css"></head> <body>  <a class="skip" href="#main">Skip to content</a> <header class="site-header"> <nav aria-label="Main menu"> <a class="brand" href="/">Healthy Habits</a> <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav"> <span class="nav-toggle-bar" aria-hidden="true"></span> <span class="visually-hidden">Menu</span> </button> <ul id="site-nav"> <li><a href="/">Home</a></li><li><a href="/services">Services</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><li><a href="/store">Store</a></li><li><a href="/privacy">Privacy</a></li> </ul> <button class="theme-toggle" aria-label="Switch between light and dark appearance" aria-pressed="false"> <span class="theme-icon" aria-hidden="true"></span> </button> </nav> </header> <main id="main">  <nav class="crumbs" aria-label="Breadcrumb"> <a href="/">Home</a> › <a href="/services">Services</a> › Hot Towels </nav> <section class="hero"> <p class="eyebrow">Add-on</p> <h1>Hot Towels</h1> <p class="subline">Complimentary — warm towels worked into your session.</p>  </section> <section> <div><p>Warm towels worked into your session.</p></div>  <h2>Session options</h2> <ul class="prices"> <li> Add-on  </li> </ul>  </section> <section class="cta"> <h2>Ready to feel better?</h2>  <a class="button" href="/contact">Request an appointment</a> </section>  </main> <footer class="site-footer"> <div class="footer-inner"> <p class="footer-brand">Healthy Habits</p> <p> <span>Helena, Montana</span> <span> · By appointment</span>   </p>   <p class="fine">Healthy Habits, Inc. · Helena, Montana · Wellness services, not medical care.</p>  <p class="fine"><a href="https://gardenmontana.com" rel="noopener">GardenMontana — our family's flower farm &amp; venue</a></p> </div> </footer> <script>
+      // Minimal, dependency-free mobile nav. No storage, no tracking.
+      const t = document.querySelector('.nav-toggle')
+      const n = document.getElementById('site-nav')
+      if (t && n) t.addEventListener('click', () => {
+        const open = t.getAttribute('aria-expanded') === 'true'
+        t.setAttribute('aria-expanded', String(!open))
+        n.classList.toggle('open', !open)
+      })
+      // Dark mode toggle — stores one on-device preference key. No tracking.
+      const tt = document.querySelector('.theme-toggle')
+      const themeMeta = document.querySelector('meta[name="theme-color"]')
+      const syncTheme = () => {
+        const dark = document.documentElement.getAttribute('data-theme') === 'dark'
+        if (tt) tt.setAttribute('aria-pressed', String(dark))
+        if (themeMeta) themeMeta.setAttribute('content', dark ? '#1f2420' : '#faf8f4')
+      }
+      syncTheme()
+      if (tt) tt.addEventListener('click', () => {
+        const dark = document.documentElement.getAttribute('data-theme') === 'dark'
+        if (dark) { document.documentElement.removeAttribute('data-theme') } 
+        else { document.documentElement.setAttribute('data-theme', 'dark') }
+        try { localStorage.setItem('hh-theme', dark ? 'light' : 'dark') } catch (e) {}
+        syncTheme()
+      })
+    </script>  </body> </html>
