@@ -1,0 +1,7 @@
+Self-hosted webfonts (latin subsets, variable weight).
+
+Newsreader — Production Type / Google Fonts — SIL Open Font License 1.1
+Figtree — Erik Kennedy / Google Fonts — SIL Open Font License 1.1
+
+Files obtained from the @fontsource-variable npm packages. Full license texts:
+https://openfontlicense.org/open-font-license-official-text/
